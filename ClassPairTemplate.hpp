@@ -11,10 +11,13 @@ private:
 
 public:
     // TODO: Write PROTOTYPE for  constructor that initializes both values
+    Pair(T1 f, T2 s);
 
-    // TODO: Write PROTOTYPE for  function named print()
+        // TODO: Write PROTOTYPE for  function named print()
+    void print() const;
     // It should display both values in the format:
     // (value1, value2)
 };
 
 // TO DO: Include implementation file here
+#include "ClassPairTemplate.tpp"
