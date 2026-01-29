@@ -23,7 +23,7 @@ public:
     // TODO: getValue
     T getValue()
     {
-        return T;
+        return value;
     }
     // TODO: print
     void print()
